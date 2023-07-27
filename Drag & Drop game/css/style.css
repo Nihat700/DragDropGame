@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.dragable-elements {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dragable {
+  padding: 25px;
+  font-size: 50px;
+  cursor: move;
+}
+
+.dropable-elements {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropable {
+  border: 3px dashed cadetblue;
+  padding: 25px;
+  margin: 20px;
+}
+
+.dropable-hover {
+  border-width: 5px;
+  transform: scale(1.1);
+}/*# sourceMappingURL=style.css.map */
